@@ -29,6 +29,7 @@ namespace Transactionb2b
             InputPayload data = JsonConvert.DeserializeObject<InputPayload>(requestBody);
 
             // Você pode fazer algo com 'data.Source' e 'data.Prompt' aqui, se necessário
+            var a = "";
 
             var response = new { transactionID = "123", status = "scheduled" };
             return new OkObjectResult(response);
