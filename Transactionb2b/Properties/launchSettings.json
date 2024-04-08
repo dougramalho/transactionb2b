@@ -1,8 +1,8 @@
 {
   "profiles": {
-    "Transactionb2b": {
+    "transactionb2b": {
       "commandName": "Project",
-      "commandLineArgs": "--port 7132",
+      "commandLineArgs": "--port 7196",
       "launchBrowser": false
     }
   }
